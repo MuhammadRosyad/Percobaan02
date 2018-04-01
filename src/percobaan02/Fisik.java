@@ -9,4 +9,10 @@ public class Fisik {
         System.out.printIn("Tinggi :"+tinggi);
         System.out.printIn("==================");
     }
+    
+    double FisikIdeal(){
+        double Ideal;
+        Ideal=berat-tinggi;
+        return Ideal;
+    }
 }
