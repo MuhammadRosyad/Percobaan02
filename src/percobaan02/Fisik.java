@@ -16,10 +16,10 @@ public class Fisik {
     
     
     void FisikInfo(){
-        System.out.printIn("==================");
-        System.out.printIn("Berat :"+berat);
-        System.out.printIn("Tinggi :"+tinggi);
-        System.out.printIn("==================");
+        System.out.println("==================");
+        System.out.println("Berat :"+berat);
+        System.out.println("Tinggi :"+tinggi);
+        System.out.println("==================");
     }
     
     double FisikIdeal(){
@@ -29,6 +29,6 @@ public class Fisik {
     }
     
     void cetakIdeal(){
-        System.out.printIn("Idealnya adalah: "+FisikIdeal());
+        System.out.println("Idealnya adalah: "+FisikIdeal());
     }
 }

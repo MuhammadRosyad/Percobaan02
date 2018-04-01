@@ -7,7 +7,7 @@ public class FisikAksi {
         r1.tinggi = 175;
         
         r1.FisikInfo();
-        System.out.printIn("Ideal Fisik ="+r1.FisikIdeal());
+        System.out.println("Ideal Fisik ="+r1.FisikIdeal());
         r1.cetakIdeal();
         
         Fisik r2 = new Fisik();
