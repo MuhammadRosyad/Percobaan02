@@ -2,6 +2,11 @@ package percobaan02;
 public class Fisik {
     double berat;
     double tinggi;
+
+    public Fisik() {
+    berat=50;
+    tinggi=165;
+    }
     
     void FisikInfo(){
         System.out.printIn("==================");
@@ -17,6 +22,6 @@ public class Fisik {
     }
     
     void cetakIdeal(){
-        System.out.printIn("Idealnya adalah: "+Fisikideal());
+        System.out.printIn("Idealnya adalah: "+FisikIdeal());
     }
 }
