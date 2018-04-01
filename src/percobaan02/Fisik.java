@@ -15,4 +15,8 @@ public class Fisik {
         Ideal=berat-tinggi;
         return Ideal;
     }
+    
+    void cetakIdeal(){
+        System.out.printIn("Idealnya adalah: "+Fisikideal());
+    }
 }
