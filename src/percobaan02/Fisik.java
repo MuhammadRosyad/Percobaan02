@@ -7,6 +7,13 @@ public class Fisik {
     berat=50;
     tinggi=165;
     }
+
+    public Fisik(double berat, double tinggi) {
+        this.berat = berat;
+        this.tinggi = tinggi;
+    }
+    
+    
     
     void FisikInfo(){
         System.out.printIn("==================");
