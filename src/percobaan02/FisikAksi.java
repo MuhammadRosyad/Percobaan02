@@ -5,5 +5,7 @@ public class FisikAksi {
         Fisik r1 = new Fisik();
         r1.berat = 50;
         r1.tinggi = 175;
+        
+        r1.FisikInfo();
     }
 }
